@@ -32,7 +32,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The main challenge I had when building the app was getting the emulator to work on my machine. 
+I also had some trouble getting the commons-io dependency to work in Android Studio. For some
+reason, I kept getting errors with *readLine* and *writeLine* even after I added the commons-io
+dependency into my build.gradle file. Eventually, I scrapped everything and started from scratch
+with the video walkthrough and was able to get everything working smoothly.
 
 ## License
 
